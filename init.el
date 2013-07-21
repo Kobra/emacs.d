@@ -29,12 +29,13 @@
 
 (require 'essentials-kit)
 (require 'ruby-kit)
-(require 'apple-kit)
+;(require 'apple-kit)
 (require 'org-kit)
-(require 'erlang-kit)
-(require 'debian-kit)
+;(require 'erlang-kit)
+;(require 'debian-kit)
 (require 'russian-kit)
 (require 'browser-kit)
+(require 'android)
 
 ;;;;; Tramp settings
 ;; Sudo via SSH
