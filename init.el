@@ -35,7 +35,10 @@
 ;(require 'debian-kit)
 (require 'russian-kit)
 (require 'browser-kit)
-(require 'android)
+
+(set-face-font 'default "-*-terminus-*-*-*-*-14-*-*-*-*-*-*-*")
+(set-face-font 'bold "-*-terminus-bold-*-*-*-14-*-*-*-*-*-*-*")
+
 
 ;;;;; Tramp settings
 ;; Sudo via SSH
