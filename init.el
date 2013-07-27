@@ -27,6 +27,12 @@
 
 (defalias 'yes-or-no-p 'y-or-n-p)
 
+(set-face-font 'default "-*-terminus-*-*-*-*-14-*-*-*-*-*-*-*")
+(set-face-font 'bold "-*-terminus-bold-*-*-*-14-*-*-*-*-*-*-*")
+;;(set-frame-parameter (selected-frame) 'alpha '(<active> [<inactive>]))
+(set-frame-parameter (selected-frame) 'alpha '(95 50))
+(add-to-list 'default-frame-alist '(alpha 95 50))
+
 (require 'essentials-kit)
 (require 'ruby-kit)
 ;(require 'apple-kit)
@@ -35,10 +41,7 @@
 ;(require 'debian-kit)
 (require 'russian-kit)
 (require 'browser-kit)
-
-(set-face-font 'default "-*-terminus-*-*-*-*-14-*-*-*-*-*-*-*")
-(set-face-font 'bold "-*-terminus-bold-*-*-*-14-*-*-*-*-*-*-*")
-
+(require 'android-kit)
 
 ;;;;; Tramp settings
 ;; Sudo via SSH

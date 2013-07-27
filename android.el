@@ -1,5 +1,0 @@
-(add-to-list 'load-path "~/Android/android-mode-master")
-(require 'android-mode)
-(custom-set-variables '(android-mode-sdk-dir "~/Android/android-mode-master"))
-(add-to-list 'load-path "~/Android/sdk/tools/lib")
-(require 'android)
